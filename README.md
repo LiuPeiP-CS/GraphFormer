@@ -1,10 +1,10 @@
-AGGCN for Cross Sentence Binary Task
+GraphFormer for Cross Sentence Binary Task
 ==========
   
 
 ## Requirements
 
-Our model was trained on GTX 1080 .  
+Our model was trained on Tesla V100 .  
 
 - Python 3 (tested on 3.6.8)
 
@@ -66,16 +66,4 @@ Our pretrained model is saved under the dir saved_models/01. To run evaluation o
 
 ```
 ./test.sh
-```
-
-
-## Citation
-
-```
-@inproceedings{guo2019aggcn,
- author = {Guo, Zhijiang and Zhang, Yan and Lu, Wei},
- booktitle = {Proc. of ACL},
- title = {Attention Guided Graph Convolutional Networks for Relation Extraction},
- year = {2019}
-}
 ```
